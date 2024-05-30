@@ -1,6 +1,6 @@
 import "./Form.css"
 
-export function Form () {
+export function RegisterForm () {
     return (
       <>
         <div className="container">
@@ -14,4 +14,21 @@ export function Form () {
         </div>
       </>
     );
+}
+export function LoginForm() {
+  return (
+    <>
+      <div className="container">
+        <img src="/Logo sin fondo.jpg" className="logo" />
+        <form>
+          <input
+            className="client"
+            placeholder="Username"
+          ></input>
+          <input placeholder="Password" name="password"></input>
+          <button>Login</button>
+        </form>
+      </div>
+    </>
+  );
 }

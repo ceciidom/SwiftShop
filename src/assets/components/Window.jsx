@@ -1,6 +1,7 @@
 import "./Window.css";
 import {Hero} from "./Hero"
-import {Form} from "./Form"
+// import {Form} from "./Form";
+import { Outlet } from "react-router-dom";
 
 export function Window() {
     return (
@@ -10,7 +11,7 @@ export function Window() {
         </div>
 
         <div className="right-column">
-            <Form />
+            <Outlet />
         </div>
       </div>
     );

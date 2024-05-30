@@ -1,14 +1,21 @@
 import './App.css'
-import {Window} from "./assets/components/Window"
+import {Window} from "./assets/components/Window";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {LoginForm, RegisterForm } from "./assets/components/Form"
 
 function App() {
 
   return (
-    <>
-      <Window />
-    </>
-      
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Window />}>
+          <Route path="/register" element={<RegisterForm />} />
+          <Route path="/login" element={<LoginForm />} />
+        </Route>
+      </Routes>
+      {/* <Window /> */}
+    </Router>
+  );
 }
     
     
