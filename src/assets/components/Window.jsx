@@ -6,11 +6,11 @@ import { Outlet } from "react-router-dom";
 export function Window() {
     return (
       <div className="background">
-        <div className="left-column">
+        <div className="first-column">
             <Hero />
         </div>
 
-        <div className="right-column">
+        <div className="second-column">
             <Outlet />
         </div>
       </div>

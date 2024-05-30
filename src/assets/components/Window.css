@@ -6,10 +6,10 @@
   
 }
 
-.left-column {
+.first-column {
     width: 50%;
-    background-color: #f7f7fa;
-    transform: rotate(-10deg);
+    background-color: #F7F7FA;
+    transform: rotate(-10deg);  
     margin-left: -10%;
     margin-top: -10%;
     padding-top: 200px;
@@ -19,7 +19,7 @@
     /* padding-left: 200px; */
 }
 
-.right-column {
+.second-column {
     position: relative;
     left: 40%;
     width: 90vh;

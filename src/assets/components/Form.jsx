@@ -7,8 +7,8 @@ export function RegisterForm () {
           <img src="/Logo sin fondo.jpg" className="logo"/>
           <form>
             <input className="client" placeholder="cliente152165@swiftshop.com" disabled></input>
-            <input placeholder="Create password" name="password"></input>
-            <input placeholder="Confirm password" name="confirmPassword"></input>
+            <input placeholder="Create password" name="password" type="password"></input>
+            <input placeholder="Confirm password" name="confirmPassword" type="password"></input>
             <button>Register</button>
           </form>
         </div>
@@ -24,8 +24,9 @@ export function LoginForm() {
           <input
             className="client"
             placeholder="Username"
+            type="text"
           ></input>
-          <input placeholder="Password" name="password"></input>
+          <input placeholder="Password" name="password" type="password"></input>
           <button>Login</button>
         </form>
       </div>
