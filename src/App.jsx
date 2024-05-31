@@ -1,20 +1,21 @@
 import './App.css'
-import {Window} from "./assets/components/Window";
+import {ScreenLogin} from "./assets/components/screen.login/Screen";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {LoginForm, RegisterForm } from "./assets/components/Form"
-import { Layout } from './assets/components/Layout';
+import {LoginForm, RegisterForm } from "./assets/components/screen.login/Form"
+import { ScreenLayout } from './assets/components/screen.main/ScreenLayout';
+import { Dashboard } from './assets/components/screen.main/main.content/Dashboard';
 
 function App() {
 
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Window />}>
+        <Route path="/" element={<ScreenLogin />}>
           <Route path="/register" element={<RegisterForm />} />
           <Route path="/login" element={<LoginForm />} />
         </Route>
-        <Route path="/dashboard" element={<Layout />}>
-          
+        <Route path="/user" element={<ScreenLayout/>}>
+          <Route path="/user/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
       {/* <Window /> */}

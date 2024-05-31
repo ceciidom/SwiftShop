@@ -33,7 +33,7 @@
     .background {
         flex-direction: column;
     }
-    .left-column {
+    .first-column {
         width: 100%;
         transform: rotate(0deg);
         position: inherit;
@@ -41,7 +41,7 @@
         padding: 0;
         height: auto;
     }
-    .right-column {
+    .second-column {
         width: 100%;
         position: inherit;
     }

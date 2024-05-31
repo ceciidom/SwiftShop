@@ -1,10 +1,12 @@
-import "./Form.css"
+import "./Form.css";
+import logo from "/logo.png"
+
 
 export function RegisterForm () {
     return (
       <>
         <div className="container">
-          <img src="/Logo sin fondo.jpg" className="logo"/>
+          <img src={logo} className="logo"/>
           <form>
             <input className="client" placeholder="cliente152165@swiftshop.com" disabled></input>
             <input placeholder="Create password" name="password" type="password"></input>
@@ -19,7 +21,7 @@ export function LoginForm() {
   return (
     <>
       <div className="container">
-        <img src="/Logo sin fondo.jpg" className="logo" />
+        <img src={logo} className="logo" />
         <form>
           <input
             className="client"

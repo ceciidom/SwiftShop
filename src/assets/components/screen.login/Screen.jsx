@@ -1,9 +1,8 @@
-import "./Window.css";
+import "./Screen.css";
 import {Hero} from "./Hero"
-// import {Form} from "./Form";
 import { Outlet } from "react-router-dom";
 
-export function Window() {
+export function ScreenLogin() {
     return (
       <div className="background">
         <div className="first-column">

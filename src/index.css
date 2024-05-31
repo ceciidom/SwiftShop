@@ -82,3 +82,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
