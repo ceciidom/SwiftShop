@@ -1,4 +1,5 @@
 import "./Card.css"
+import { PropTypes } from "prop-types";
 
 export function Card(props) {
     return (
@@ -9,4 +10,7 @@ export function Card(props) {
         <div className="board flex"></div>
       </div>
     );
+}
+Card.propTypes = {
+  cardName: PropTypes.string.isRequired
 }

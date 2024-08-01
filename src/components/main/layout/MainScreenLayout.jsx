@@ -1,7 +1,7 @@
-import "./ScreenLayout.css";
+import "./MainScreenLayout.css";
 import { Outlet } from "react-router-dom";
-import {SideMenu} from "./components/SideMenu.jsx";
-import { Topbar } from "./components/Topbar.jsx";
+import {SideMenu} from "./SideMenu.jsx";
+import { Topbar } from "./Topbar.jsx";
 // import {Dashboard} from "./main.content/Dashboard"
 
 export function ScreenLayout() {

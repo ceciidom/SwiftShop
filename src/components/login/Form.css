@@ -11,7 +11,7 @@
     width: 100px;
     align-self: center;
 }
-form {
+/* form {
     display: flex;
     flex-direction: column;
 }
@@ -39,7 +39,7 @@ form button {
     border-radius: 5px;
     border-style: groove;
     background-color: #082F48;
-}
+} */
 .client {
     background-color: #DFE4E7;
 }

@@ -1,5 +1,5 @@
 import "./Dashboard.css"
-import {Card} from "./components/Card"
+import {Card} from "../ui/Card"
 
 export function Dashboard(){
     return (

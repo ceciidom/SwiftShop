@@ -45,4 +45,45 @@
   color: #888;
 }
 
+/* form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    margin: 5px;
+    height: 30px;
+    border-color: #082F48;
+    border-radius: 5px;
+    border-style: groove;
+    background-color: white;
+    color: #082F48 ;
+
+}
+    
+form input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: #8396A380;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+form button {
+    margin: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    background-color: #082F48;
+}
+.btn {
+  margin: 5px;
+  background-color: #082F48;
+}
+.btn-icon {
+  padding: 9px !important;;
+}
+.cancel {
+  background-color: rgb(204, 35, 35);
+}
 
