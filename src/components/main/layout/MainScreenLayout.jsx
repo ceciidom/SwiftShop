@@ -9,10 +9,7 @@ export function ScreenLayout() {
     <div className="backgroundUser">
       <Topbar/>
       <SideMenu/>
-      {/* <Dashboard/> */}
-      {/* <div className="mainContent flex"> */}
       <Outlet />
-      {/* </div> */}
       <div className="footer">{/* <Footer /> */}</div>
     </div>
   );

@@ -1,15 +1,11 @@
 import "./Inventario.css";
 import { useInventoryLogic } from "../../../../hooks/useInventoryLogic";
 
-
 export const Inventario = () => {
-
   const { data, loading } = useInventoryLogic();
-
   if (loading) {
     return <div>Loading...</div>
   }
-
     return (
       <div className="full-screen">
         <div className="col col-2">
